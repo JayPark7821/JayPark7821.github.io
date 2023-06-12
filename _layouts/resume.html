@@ -1,367 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    <main> 
-      
-<div class="container">
-  <h1>안녕하세요! <br />백엔드 개발자 박재현입니다.</h1>
-  <h2>
-    <span class="text_highlight">한땀 한땀,</span><br />직면한 문제를 풀어나가는 것과,<br />
-    새로운 기술을 습득하며 성장하는 재미를 느낍니다!
-  </h2>
-  <div class="contents" >
-    <h3>Personal Info</h3>
-    <div>
-      <ul>
-        <h4>Contact</h4>
-        <li>Email.  <a href="mailto:pjhyun7821@gmail.com">pjhyun7821@gmail.com</a</li>
-        <li>Phone. 010-3993-7821</li>
-      </ul>
-      <ul>
-        <h4>Channel</h4>
-        <li>
-          Github.
-          <a href="https://github.com/JayPark7821" target="_blank"
-            >https://github.com/JayPark7821</a>
-        </li>
-      </ul>
+{% include head.html %}
+<body>
+<main>
+
+    <div class="container">
+        <h1>안녕하세요! <br/>백엔드 개발자 박재현입니다.</h1>
+        <h2>
+            <span class="text_highlight">한땀 한땀,</span><br/>직면한 문제를 풀어나가는 것과,<br/>
+            새로운 기술을 습득하며 성장하는 재미를 느낍니다!
+        </h2>
+        <div class="contents">
+            <h3>Personal Info</h3>
+            <div>
+                <ul>
+                    <h4>Contact</h4>
+                    <li>Email. <a href="mailto:pjhyun7821@gmail.com">pjhyun7821@gmail.com</a</li>
+                    <li>Phone. 010-3993-7821</li>
+                </ul>
+                <ul>
+                    <h4>Channel</h4>
+                    <li>
+                        Github.
+                        <a href="https://github.com/JayPark7821" target="_blank"
+                        >https://github.com/JayPark7821</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contents">
+            <h3>Introduce</h3>
+            <ul class="project">
+                <li>안녕하세요! 백엔드 개발자 박재현입니다.</li>
+                <li>꾸준히 개발 능력을 키우기 위해 학습하고 성장합니다.</li>
+                <li>개발 능력도 중요하지만, 문제해결을 중심으로 고민하고 또 고민합니다.</li>
+                <li>요즘은 테스트 코드, 클린 코드, 객체지향설계에 푹 빠져있습니다.</li>
+                <li>서비스를 개발할 때, 사용자 중심으로 생각하고 고민합니다.</li>
+                <li>꾸준함의 가치를 알기에 1일 1커밋 운동을 하고 있습니다.</li>
+            </ul>
+        </div>
+        <div class="contents">
+            <h3 class="">Skills</h3>
+            <div>
+                <ul class="skills flex">
+                    <p class="list_title">프로그래밍 언어 :</p>
+                    <li>Java,</li>
+                    <li>JavaScript,</li>
+                    <li>Python</li>
+                </ul>
+                <ul class="skills flex">
+                    <p class="list_title">프레임워크 & 라이브러리 :</p>
+                    <li>Spring MVC,</li>
+                    <li>Spring Boot,</li>
+                    <li>Spring Data JPA,</li>
+                    <li>QueryDsl,</li>
+                    <li>Vue.js</li>
+                </ul>
+                <ul class="skills flex">
+                    <p class="list_title">데이터베이스 :</p>
+                    <li>MySQL,</li>
+                    <li>MariaDB</li>
+                </ul>
+                <ul class="skills flex">
+                    <p class="list_title">클라우드 :</p>
+                    <li>AWS EC2,</li>
+                    <li>S3,</li>
+                    <li>MS Azure,</li>
+                    <li>Docker</li>
+                </ul>
+                <ul class="skills flex">
+                    <p class="list_title">배포도구 :</p>
+                    <li>Jenkins</li>
+                </ul>
+                <ul class="skills flex">
+                    <p class="list_title"">협업 툴 :</p>
+                    <li>Github,</li>
+                    <li>Notion</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contents">
+            <h3 class="">Experience</h3>
+            <p>프로젝트의 전체 기술 스택이 아닌 본인 사용 기술 스택만 작성하였습니다.</p>
+
+
+            <h4 class="team_title">HealthConnect ( 2019.08 ~ 2021.05, 2022.04 ~ 현재 )</h4>
+            <p class="team_desc">디지털헬스케어기업으로 스마트 헬스케어 플랫폼을 서비스하고, 스마트의료플랫폼 개발 및 <br/> 서비스 제공</p>
+            <div class="content flex">
+                <div class="project_title">
+                    <h5 class="underline"><a target="_blank">BiocoreDx</a></h5>
+                    <p class="period">2022.04 ~ 현재</p>
+                </div>
+                <div class="project_content">
+                    <ul class="project">
+                        <p class="list_title">[ Project ]</p>
+                        <li>Biocore 임상시험 관리 시스템 백엔드 개발</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Works ]</p>
+                        <li>다국어 지원 기능 개발</li>
+                        <li>서비스 에러 메시지 Teams 연동, APM 솔루션 Scouter 연동하여 모니터링 시스템 구축</li>
+                        <li>기존 수동 배포 프로세스에 Jenkins를 도입하여 자동화 배포 적용</li>
+                        <li>버전 관리 도구를 중앙 집중형(SVN)에서 분산 관리형(Git)으로 전환, 브랜치 전략 Git-Flow 도입을 위해 사내 기술 세미나 진행</li>
+                        <li>Jquery를 사용해 웹 페이지 내부에 여러 메뉴를 열어놓을 수 있도록 탭 기능 개발</li>
+                        <li>기존 Monolithic 서비스에서 MSA 전환 작업 진행</li>
+                        <li>기존 코드에 테스트 코드 추가 & 코드 리팩토링</li>
+                        <li>시스템 성능 개선을 위한 SQL 쿼리 튜닝 & 프로세스 개선</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Contribution ]</p>
+                        <li>다국어 지원 기능을 개발하여 개발자뿐만 아니라 <span
+                                class="text_under_highlight">사용자도 쉽게 다국어를 수정 적용할 수 있도록 </span>화면 제공
+                        </li>
+                        <li>장애 및 오류 발생 시, <span class="text_under_highlight">고객이 오류를 리포팅하기 전에 미리 에러를 감지</span>, 빠르게 조치하여
+                            고객 경험 개선
+                        </li>
+                        <li>CI/CD 자동화로 배포 시간 단축</li>
+                        <li>사내 기술 세미나를 통해 <span class="text_under_highlight">팀원들과 기술 공유로 기술성장 </span> 동기부여 기여</li>
+                        <li>기존 메뉴 이동 시 전체 페이지가 다시 렌더링 되던 방식에서, 웹페이지 내부에 탭 기능 구현으로 여러 메뉴를 열어놓고 사용할 수 있도록 해 고객 경험 개선</li>
+                        <li>도메인별 Repository, Server, CI/CD 분리 세팅 진행</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Skills ]</p>
+                        <li>
+                            Java, Spring, MyBatis, MariaDB, JavaScript, Jquery, Jenkins, Azure app-service
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content flex">
+                <div class="project_title">
+                    <h5 class="underline"><a target="_blank">G-Hub</a></h5>
+                    <p class="period">2020.01 ~ 2021.05</p>
+                </div>
+                <div class="project_content">
+                    <ul class="project">
+                        <p class="list_title">[ Project ]</p>
+                        <li>녹십자 임상시험 관리 시스템 백엔드 & 프론트엔드 개발</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Works ]</p>
+                        <li>임상시험 관리 To-Be 프로세스 도출</li>
+                        <li>임상시험 프로젝트 진행을 위해 필요한 기본 데이터 세팅 화면 & 서버 개발</li>
+                        <li>검사 접수, 검사 결과 화면 & 서버 개발</li>
+                        <li>시스템 개발 완료 후 QA진행</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Contribution ]</p>
+                        <li><span class="text_under_highlight">고객과 협의를 통해 임상시험관리 프로세스 도출</span></li>
+                        <li><span class="text_under_highlight">잠재적으로 오류를 발생시킬 수 있는 소스 & 쿼리를 <br/> 일정 내에 전면 수정</span>해 고객
+                            경험 개선
+                        </li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Skills ]</p>
+                        <li>
+                            Java, Spring, MyBatis, Oracle, JavaScript, Jquery, Ezgen(Report tool)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="content flex">
+                <div class="project_title">
+                    <h5 class="underline"><a target="_blank">ETRI CyberDX</a></h5>
+                    <p class="period">2019.05 ~ 2019.12</p>
+                </div>
+                <div class="project_content">
+                    <ul class="project">
+                        <p class="list_title">[ Project ]</p>
+                        <li>ERTI의 예측모델인 CyberDX를 활용한 질환 예측 Admin 페이지 개발</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Works ]</p>
+                        <li>ERTI의 CyberDx( XGBoost 사용 )학습에 사용할 건강검진 데이터 가공 자동화</li>
+                        <li>질병 발병 확률 예측 결과를 조회해 볼 수 있는 화면 개발</li>
+                        <li>예측 결과 페이지 pdf 출력 기능 개발</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Contribution ]</p>
+                        <li>Python Pandas 활용 <span class="text_under_highlight">학습 데이터 가공의 자동화</span> (ex, 결측값 제거, 학습에
+                            사용할 데이터 선택)를 통해 학습데이터 정제 시간 단축
+                        </li>
+                        <li>고객의 요구사항에 맞추기 위해 처음 사용해 보는 기술 스택 Vue.js를 인터넷 강의를 통해 학습하면서 주어진 일정 안에 개발 완료</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Skills ]</p>
+                        <li>
+                            Python, JavaScript, Vue.js, Vuex
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <h4 class="team_title"> SCM Inno ( 프리랜서, 2021.05 ~ 2022.04 )</h4>
+
+            <div class="content flex">
+                <div class="project_title">
+                    <h5 class="underline"><a target="_blank">GTMS</a></h5>
+                    <p class="period">2021.05 ~ 2022.04</p>
+                </div>
+                <div class="project_content">
+                    <ul class="project">
+                        <p class="list_title">[ Project ]</p>
+                        <li>현대 글로비스 TMS(운송 관리 시스템) 백오피스 개발</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Works ]</p>
+                        <li>국내 수소 TMS 서버 & 화면 개발</li>
+                        <li>해외 완성차 수배송 서버 & 화면 개발</li>
+                        <li>권역 추천 로직 개발</li>
+                        <li>Oracle 프로시저의 비즈니스 로직을 서버 로직으로 변경</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Contribution ]</p>
+                        <li>신규 영업소 추가 시, 기존 사용자가 직접 권역을 선택하던 방식에서, <br/> <span class="text_under_highlight">시스템에서 먼저 각 권역의 영업소 위치를 기반으로  <br/>신규 영업소의 권역을 추천</span>해
+                            사용자 편의성 향상
+                        </li>
+                        <li>DB에서는 데이터만 가져오고 비즈니스 로직 처리는 서버에서만 처리하도록 수정해 <br/> <span class="text_under_highlight">전반적인 시스템의 유지 보수성 & 성능 개선</span>
+                        </li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Skills ]</p>
+                        <li>
+                            Java, Spring, Tibero, JavaScript, Jquery
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <h4 class="team_title">Mebixon ( 2018.09 ~ 2019.05 )</h4>
+            <p class="team_desc">생명공학 ICT 기술 전문성과 식품분석 기술 전문성을 융합하여, BIO ICT Solutions, Food Safety Testing Service &
+                Verification, 국책연구과제 수행 등 생명공학 전문 분야에
+                연구개발 서비스 제공 및 의료 IT솔루션 서비스를 제공. </p>
+
+            <div class="content flex">
+                <div class="project_title">
+                    <h5 class="underline"><a target="_blank">WISH</a></h5>
+                    <p class="period">2018.09 ~ 2019.05</p>
+                </div>
+                <div class="project_content">
+                    <ul class="project">
+                        <p class="list_title">[ Project ]</p>
+                        <li>서울 의과학 연구소 임상시험 관리 시스템 백엔드 & 프론트엔드 개발</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Works ]</p>
+                        <li>임상시험 관리 마스터 데이터 관리 기능 & 화면 개발</li>
+                        <li>외부 사용자 회원 가입 & 개인정보 수정 프로세스 설계 & 개발</li>
+                        <li>Oz Report 시스템 연동 & 검사 결과 & 임상시험 정보 출력물 개발</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Contribution ]</p>
+                        <li>SMS 서비스를 연동해 회원가입과 개인정보 수정의 프로세스에 <br/> 휴대전화 번호 인증 과정을 추가
+                            <br/><span class="text_under_highlight">외부 사용자의 개인정보 관리 자동화</span>를 통해 사용자 경험 개선
+                        </li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Skills ]</p>
+                        <li>
+                            Java, Spring, MyBatis, Oracle, JavaScript, Oz Report, Nexacro
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <h4 class="team_title" id="side_project_flag">오브제</h4>
+            <p class="team_desc">사이드 프로젝트 팀</p>
+            <div class="content flex">
+                <div class="project_title">
+                    <h5 class="underline"><a>Flag</a></h5>
+                    <p class="period">2022.09 ~ 2023.05</p>
+                </div>
+                <div class="project_content">
+                    <ul class="project">
+                        <p class="list_title">[ Project ]</p>
+                        <li>Flag App. 목표 & 일정 관리 OKR 서비스 앱</li>
+                        <li>Github.<a href="https://github.com/JayPark7821/okr-project-v3" target="_blank">
+                            https://github.com/JayPark7821/okr-project-v3</a></li>
+                        <li>App Store.<a href="https://apps.apple.com/kr/app/flag/id6443440561" target="_blank">
+                            바로가기</a></li>
+
+
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Works ]</p>
+                        <li>개인적으로 학습했지만 회사 업무에 사용하기 어려웠던 기술들을 활용</li>
+                        <li>회사 외부의 여러 사람들과 협업의 경험을 쌓고 싶어 참여
+                            <br/> - Back-end 1명, Front-end 1명, 기획자 1명, 디자이너 1명으로 구성
+                        </li>
+                        <li>프로젝트 백엔드 전체 설계/개발/배포</li>
+                        <li>Jenkins을 이용한 CI/CD 구성</li>
+                        <li>Docker와 Nginx를 사용해 배포 중에도 무중단 서비스 제공</li>
+                        <li>테스트 커버리지 80% 이상</li>
+                        <li>App Store에 정식 출시 & 운영중</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Skills ]</p>
+                        <li>Java, Spring, Jpa, QueryDsl, MariaDB, Aws EC2, jenkins, Docker, Nginx</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h4 class="team_title" id="side_project_daedong">대동빵지도</h4>
+            <p class="team_desc">사이드 프로젝트 팀</p>
+            <div class="content flex">
+                <div class="project_title">
+                    <h5 class="underline"><a>대동빵지도</a></h5>
+                    <p class="period">2023.05 ~ 현재</p>
+                </div>
+                <div class="project_content">
+                    <ul class="project">
+                        <p class="list_title">[ Project ]</p>
+                        <li>위치 기반 빵집 검색 추천 서비스 앱</li>
+                        <li>App Store.<a
+                                href="https://apps.apple.com/kr/app/%EB%8C%80%EB%8F%99%EB%B9%B5%EC%A7%80%EB%8F%84/id6445900733"
+                                target="_blank">
+                            바로가기</a></li>
+
+
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Works ]</p>
+                        <li>테스트 코드 추가 & 리팩토링</li>
+                        <li>사용자 정보, 빵집 데이터 등 잘 변하지 않는 데이터 캐싱 처리</li>
+                        <li>App Store에 정식 출시 & 운영중</li>
+                    </ul>
+                    <ul class="project">
+                        <p class="list_title">[ Skills ]</p>
+                        <li>Java, Spring, Jpa, QueryDsl, MySQL, Aws, Github Actions</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="contents">
+            <h3 class="">Education</h3>
+            <div class="content flex">
+                <div class="project_title">
+                    <h5 class="underline"><a>FastCampus</a></h5>
+
+                </div>
+                <div class="project_content">
+                    <p class="list_title">INNER CIRCLE : Java/Spring 기반 리팩토링 Co-Learning for 클린코드 by 백명석</p>
+                    <p class="period">2022.12 ~ 2023.02</p>
+                    <ul class="project">
+                        <li>단위테스트와 TDD, 리팩토링으로 클린코드 작성하는 내용을 깊게 배워보고 연습해 볼수 있는 기회였습니다.</li>
+                        <li>이전에는 기능의 동작에 집중을 했다면 좀더 OOP에 가깝도록 역할과 책임을 고민해보고 클래스와 메서드 분리를 해보며 객체지향에 대한 견문을 넓혔습니다.</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="content flex">
+                <div class="project_title">
+                    <h5 class="underline"><a>Inflearn</a></h5>
+
+                </div>
+                <div class="project_content">
+                    <ul class="project">
+                        <li> 총 완료한 수업수 1400+</li>
+                        <li> 총 완료한 강좌수 20+</li>
+                        <li>Spring Boot, JPA 등 업무에 필요한 기술들 뿐만 아니라 <br/> 좋은 개발자로 꾸준히 성장하고 Clean Code 생산을 위해 디자인 패턴, 리팩토링,
+                            TDD등 계속해서 학습중
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
-  </div>
-  <div class="contents">
-    <h3 >Introduce</h3>
-      <ul class="project">    
-        <li>안녕하세요! 백엔드 개발자 박재현입니다.</li>
-        <li>꾸준히 개발 능력을 키우기 위해 학습하고 성장합니다.</li>
-        <li>개발 능력도 중요하지만, 문제해결을 중심으로 고민하고 또 고민합니다.</li>
-        <li>요즘은 테스트 코드, 클린 코드, 객체지향설계에 푹 빠져있습니다.</li>
-        <li>서비스를 개발할 때, 사용자 중심으로 생각하고 고민합니다.</li>
-        <li>꾸준함의 가치를 알기에 1일 1커밋 운동을 하고 있습니다.</li>
-      </ul>
-  </div>
-  <div class="contents">
-    <h3 class="">Skills</h3>
-    <div>
-      <ul class="skills flex">
-        <p class="list_title">프로그래밍 언어 :</p>
-        <li>Java,</li>
-        <li>JavaScript,</li>
-        <li>Python</li>
-      </ul>
-      <ul class="skills flex">
-        <p class="list_title">프레임워크 & 라이브러리 :</p>
-        <li>Spring MVC,</li>
-        <li>Spring Boot,</li>
-        <li>Spring Data JPA,</li>
-        <li>QueryDsl,</li>
-        <li>Vue.js</li>
-      </ul>
-      <ul class="skills flex">
-        <p class="list_title">데이터베이스 :</p>
-        <li>MySQL,</li>
-        <li>MariaDB</li>
-      </ul>
-      <ul class="skills flex">
-        <p class="list_title">클라우드 :</p>
-        <li>AWS EC2,</li>
-        <li>S3,</li>
-        <li>MS Azure,</li>
-        <li>Docker</li>
-      </ul>
-      <ul class="skills flex">
-        <p class="list_title">배포도구 :</p>
-        <li>Jenkins</li>
-      </ul>
-      <ul class="skills flex">
-        <p class="list_title"">협업 툴 :</p>
-        <li>Github,</li>
-        <li>Notion</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="contents">
-    <h3 class="">Experience</h3>
-    <p>프로젝트의 전체 기술 스택이 아닌 본인 사용 기술 스택만 작성하였습니다.</p>
-
-    
-    <h4 class="team_title">HealthConnect ( 2019.08 ~ 2021.05, 2022.04 ~ 현재 )</h4>
-    <p class="team_desc">디지털헬스케어기업으로 스마트 헬스케어 플랫폼을 서비스하고, 스마트의료플랫폼 개발 및 <br /> 서비스 제공</p>
-    <div class="content flex">
-      <div class="project_title">
-        <h5 class="underline"><a  target="_blank">BiocoreDx</a></h5>
-        <p class="period">2022.04 ~ 현재</p>
-      </div>
-      <div class="project_content">
-        <ul class="project">
-          <p class="list_title">[ Project ]</p>
-          <li>Biocore 임상시험 관리 시스템 백엔드 개발</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Works ]</p>
-          <li>다국어 지원 기능 개발 </li>     
-          <li>서비스 에러 메시지 Teams 연동, APM 솔루션 Scouter 연동하여 모니터링 시스템 구축 </li>
-          <li>기존 수동 배포 프로세스에 Jenkins를 도입하여 자동화 배포 적용 </li>
-          <li>버전 관리 도구를 중앙 집중형(SVN)에서 분산 관리형(Git)으로 전환, 브랜치 전략 Git-Flow 도입을 위해 사내 기술 세미나 진행</li>
-          <li>Jquery를 사용해 웹 페이지 내부에 여러 메뉴를 열어놓을 수 있도록 탭 기능 개발</li>
-          <li>기존 Monolithic 서비스에서 MSA 전환 작업 진행</li>
-          <li>기존 코드에 테스트 코드 추가 & 코드 리팩토링</li>
-          <li>시스템 성능 개선을 위한 SQL 쿼리 튜닝 & 프로세스 개선</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Contribution ]</p>
-          <li>다국어 지원 기능을 개발하여 개발자뿐만 아니라  <span class="text_under_highlight">사용자도 쉽게 다국어를 수정 적용할 수 있도록 </span>화면 제공</li>
-          <li>장애 및 오류 발생 시,  <span class="text_under_highlight">고객이 오류를 리포팅하기 전에 미리 에러를 감지</span>, 빠르게 조치하여 고객 경험 개선</li>
-          <li>CI/CD 자동화로 배포 시간 단축</li>
-          <li>사내 기술 세미나를 통해 <span class="text_under_highlight">팀원들과 기술 공유로 기술성장 </span> 동기부여 기여</li>
-          <li>기존 메뉴 이동 시 전체 페이지가 다시 렌더링 되던 방식에서, 웹페이지 내부에 탭 기능 구현으로 여러 메뉴를 열어놓고 사용할 수 있도록 해 고객 경험 개선</li>
-          <li>도메인별 Repository, Server, CI/CD 분리 세팅 진행</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Skills ]</p>
-          <li>
-            Java, Spring, MyBatis, MariaDB, JavaScript, Jquery, Jenkins, Azure app-service
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="content flex">
-      <div class="project_title">
-        <h5 class="underline"><a  target="_blank">G-Hub</a></h5>
-        <p class="period">2020.01 ~ 2021.05</p>
-      </div>
-      <div class="project_content">
-        <ul class="project">
-          <p class="list_title">[ Project ]</p>
-          <li>녹십자 임상시험 관리 시스템 백엔드 & 프론트엔드 개발</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Works ]</p>
-          <li>임상시험 관리 To-Be 프로세스 도출</li>
-          <li>임상시험 프로젝트 진행을 위해 필요한 기본 데이터 세팅 화면 & 서버 개발</li>
-          <li>검사 접수, 검사 결과 화면 & 서버 개발</li>
-          <li>시스템 개발 완료 후 QA진행 </li>
-        </ul>
-         <ul class="project">
-          <p class="list_title">[ Contribution ]</p>
-          <li><span class="text_under_highlight">고객과 협의를 통해 임상시험관리 프로세스 도출</span></li>
-          <li><span class="text_under_highlight">잠재적으로 오류를 발생시킬 수 있는 소스 & 쿼리를 <br /> 일정 내에 전면 수정</span>해 고객 경험 개선</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Skills ]</p>
-          <li>
-            Java, Spring, MyBatis, Oracle, JavaScript, Jquery, Ezgen(Report tool)
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    
-    <div class="content flex">
-      <div class="project_title">
-        <h5 class="underline"><a  target="_blank">ETRI CyberDX</a></h5>
-        <p class="period">2019.05 ~ 2019.12</p>
-      </div>
-      <div class="project_content">
-        <ul class="project">
-          <p class="list_title">[ Project ]</p>
-          <li>ERTI의 예측모델인 CyberDX를 활용한 질환 예측 Admin 페이지 개발</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Works ]</p>
-          <li>ERTI의 CyberDx( XGBoost 사용 )학습에 사용할 건강검진 데이터 가공 자동화 </li>
-          <li>질병 발병 확률 예측 결과를 조회해 볼 수 있는 화면 개발</li>
-          <li>예측 결과 페이지 pdf 출력 기능 개발</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Contribution ]</p>
-          <li>Python Pandas 활용 <span class="text_under_highlight">학습 데이터 가공의 자동화</span> (ex, 결측값 제거, 학습에 사용할 데이터 선택)를 통해 학습데이터 정제 시간 단축</li>
-          <li>고객의 요구사항에 맞추기 위해 처음 사용해 보는 기술 스택 Vue.js를 인터넷 강의를 통해 학습하면서 주어진 일정 안에 개발 완료</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Skills ]</p>
-          <li>
-            Python, JavaScript, Vue.js, Vuex
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <h4 class="team_title"> SCM Inno ( 프리랜서, 2021.05 ~ 2022.04 )</h4>
-    
-    <div class="content flex">
-      <div class="project_title">
-        <h5 class="underline"><a  target="_blank">GTMS</a></h5>
-        <p class="period">2021.05 ~ 2022.04</p>
-      </div>
-      <div class="project_content">
-        <ul class="project">
-          <p class="list_title">[ Project ]</p>
-          <li>현대 글로비스 TMS(운송 관리 시스템) 백오피스 개발</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Works ]</p>
-          <li>국내 수소 TMS 서버 & 화면 개발</li>     
-          <li>해외 완성차 수배송 서버 & 화면 개발</li>
-          <li>권역 추천 로직 개발</li>
-          <li>Oracle 프로시저의 비즈니스 로직을 서버 로직으로 변경</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Contribution ]</p>
-          <li>신규 영업소 추가 시, 기존 사용자가 직접 권역을 선택하던 방식에서, <br /> <span class="text_under_highlight">시스템에서 먼저 각 권역의 영업소 위치를 기반으로  <br />신규 영업소의 권역을 추천</span>해 사용자 편의성 향상 </li>
-          <li>DB에서는 데이터만 가져오고 비즈니스 로직 처리는 서버에서만 처리하도록 수정해 <br /> <span class="text_under_highlight">전반적인 시스템의 유지 보수성 & 성능 개선</span></li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Skills ]</p>
-          <li>
-            Java, Spring, Tibero, JavaScript, Jquery
-          </li>
-        </ul>
-      </div>
-    </div>
 
 
-    <h4 class="team_title">Mebixon ( 2018.09 ~ 2019.05 )</h4>
-    <p class="team_desc">생명공학 ICT 기술 전문성과 식품분석 기술 전문성을 융합하여, BIO ICT Solutions, Food Safety Testing Service & Verification, 국책연구과제 수행 등 생명공학 전문 분야에
-      연구개발 서비스 제공 및 의료 IT솔루션 서비스를 제공. </p>
-    
-    <div class="content flex">
-      <div class="project_title">
-        <h5 class="underline"><a  target="_blank">WISH</a></h5>
-        <p class="period">2018.09 ~ 2019.05</p>
-      </div>
-      <div class="project_content">
-        <ul class="project">
-          <p class="list_title">[ Project ]</p>
-          <li>서울 의과학 연구소 임상시험 관리 시스템 백엔드 & 프론트엔드 개발</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Works ]</p>
-          <li>임상시험 관리 마스터 데이터 관리 기능 & 화면 개발</li>
-          <li>외부 사용자 회원 가입 & 개인정보 수정 프로세스 설계 & 개발</li>
-          <li>Oz Report 시스템 연동 & 검사 결과 & 임상시험 정보 출력물 개발 </li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Contribution ]</p>
-          <li>SMS 서비스를 연동해 회원가입과 개인정보 수정의 프로세스에 <br /> 휴대전화 번호 인증 과정을 추가
-            <br /><span class="text_under_highlight">외부 사용자의 개인정보 관리 자동화</span>를 통해 사용자 경험 개선 </li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Skills ]</p>
-          <li>
-            Java, Spring, MyBatis, Oracle, JavaScript, Oz Report, Nexacro
-          </li>
-        </ul>
-      </div>
-    </div>  
-
-    <h4 class="team_title" id="side_project_flag">오브제</h4>
-    <p class="team_desc">사이드 프로젝트 팀</p>
-    <div class="content flex" >
-      <div class="project_title">
-        <h5 class="underline"><a>Flag</a></h5>
-        <p class="period">2022.09 ~ 2023.05</p>
-      </div>
-      <div class="project_content">
-        <ul class="project">
-          <p class="list_title">[ Project ]</p>
-          <li>Flag App. 목표 & 일정 관리 OKR 서비스 앱</li>
-          <li>Github.<a href="https://github.com/JayPark7821/okr-project-v3" target="_blank">
-            https://github.com/JayPark7821/okr-project-v3</a></li>
-          <li>App Store.<a href="바로가기" target="_blank">
-            https://apps.apple.com/kr/app/flag/id6443440561</a></li>
-                
-          
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Works ]</p>
-          <li>개인적으로 학습했지만 회사 업무에 사용하기 어려웠던 기술들을 활용 </li>
-          <li>회사 외부의 여러 사람들과 협업의 경험을 쌓고 싶어 참여 
-            <br /> - Back-end 1명, Front-end 1명, 기획자 1명, 디자이너 1명으로 구성</li>
-          <li>프로젝트 백엔드 전체 설계/개발/배포</li>
-          <li>Jenkins을 이용한 CI/CD 구성</li>
-          <li>Docker와 Nginx를 사용해 배포 중에도 무중단 서비스 제공</li>
-          <li>테스트 커버리지 80% 이상</li>
-          <li>App Store에 정식 출시 & 운영중</li>
-        </ul>
-        <ul class="project">
-          <p class="list_title">[ Skills ]</p>
-          <li>Java, Spring, Jpa, QueryDsl, MariaDB, Aws EC2, jenkins, Docker, Nginx</li>
-        </ul>
-      </div>
-    </div>
-  
-  <h4 class="team_title" id="side_project_daedong">대동빵지도</h4>
-  <p class="team_desc">사이드 프로젝트 팀</p>
-  <div class="content flex" >
-    <div class="project_title">
-      <h5 class="underline"><a>대동빵지도</a></h5>
-      <p class="period">2023.05 ~ 현재</p>
-    </div>
-    <div class="project_content">
-      <ul class="project">
-        <p class="list_title">[ Project ]</p>
-        <li>위치 기반 빵집 검색 추천 서비스 앱</li>
-        <li>App Store.<a href="바로가기" target="_blank">
-          https://apps.apple.com/kr/app/%EB%8C%80%EB%8F%99%EB%B9%B5%EC%A7%80%EB%8F%84/id6445900733</a></li>
-              
-        
-      </ul>
-      <ul class="project">
-        <p class="list_title">[ Works ]</p>
-        <li>테스트 코드 추가 & 리팩토링</li>
-        <li>사용자 정보, 빵집 데이터 등 잘 변하지 않는 데이터 캐싱 처리</li>
-        <li>App Store에 정식 출시 & 운영중</li>
-      </ul>
-      <ul class="project">
-        <p class="list_title">[ Skills ]</p>
-        <li>Java, Spring, Jpa, QueryDsl, MySQL, Aws, Github Actions</li>
-      </ul>
-    </div>
-  </div>
-
-</div>  
-  <div class="contents"  >
-    <h3 class="">Education</h3>
-    <div class="content flex" >
-      <div class="project_title">
-        <h5 class="underline"><a>FastCampus</a></h5>
-
-      </div>
-      <div class="project_content">
-        <p class="list_title">INNER CIRCLE : Java/Spring 기반 리팩토링 Co-Learning for 클린코드 by 백명석</p>
-        <p class="period">2022.12 ~ 2023.02</p>
-        <ul class="project">
-          <li>단위테스트와 TDD, 리팩토링으로 클린코드 작성하는 내용을 깊게 배워보고 연습해 볼수 있는 기회였습니다.</li>
-          <li>이전에는 기능의 동작에 집중을 했다면 좀더 OOP에 가깝도록 역할과 책임을 고민해보고 클래스와 메서드 분리를 해보며 객체지향에 대한 견문을 넓혔습니다.</li>
-          
-        </ul>
-      </div>
-    </div>
-    <div class="content flex" >
-      <div class="project_title">
-        <h5 class="underline"><a>Inflearn</a></h5>
-       
-      </div>
-      <div class="project_content">
-        <ul class="project">
-          <li> 총 완료한 수업수 1400+ </li>
-          <li> 총 완료한 강좌수 20+ </li>
-          <li>Spring Boot, JPA 등 업무에 필요한 기술들 뿐만 아니라 <br /> 좋은 개발자로 꾸준히 성장하고 Clean Code 생산을 위해 디자인 패턴, 리팩토링, TDD등 계속해서 학습중</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  
-</div>
-
-
-    </main>
-  </body>
-  <script>
+</main>
+</body>
+<script>
     $(document).ready(function () {
-      $(".slider").bxSlider();
+        $(".slider").bxSlider();
     });
-  </script>
+</script>
 </html>
